@@ -1,0 +1,33 @@
+.main2__container{
+    background: var(--transparent);
+    height: 70vh;
+    width: 80%;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    display: flex;
+    margin: 0 auto;
+    padding:2rem 2.5rem;
+}
+
+.main2__image{
+    width: fit-content;
+}
+
+.main2__text{
+    padding-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.main2__text h3{
+    font-weight: 600;
+}
+
+.main2__text small{
+    font-size: .8rem;
+    color: #003;
+}
+
+.swiper-wrapper{
+    width: 4rem;
+}

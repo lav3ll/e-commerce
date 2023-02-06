@@ -1,3 +1,5 @@
+import './backdrop.css'
+
 const Backdrop = ({onClick, onMouseOver,onMouseOut}) => {
 
   return (

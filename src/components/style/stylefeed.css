@@ -1,0 +1,79 @@
+.stylefeed__container{
+    position: relative;
+    height: 80vh;
+    background-color: var(--color-bg-variant);
+    margin-bottom: 8rem;
+    
+}
+
+.stylefeed__title{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.stylefeed__title-text{
+    text-align: center;
+
+}
+
+.stylefeed__slider{
+    width: 80%;
+    padding: 4rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.stylefeed__content{
+background-color: var(--color-white);
+}
+
+.stylefeed__image{
+    height: 20rem;
+    
+}
+
+.stylefeed_content h5, .stylefeed_content h3{
+    background-color: var(--color-white);
+}
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-white);
+    height: 1rem;
+    width: 1rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: black;
+
+}
+
+
+.stylefeed__btn{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    z-index: 2 !important;
+    margin-top: -14rem;
+}
+
+.stylefeed__btn h5{
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    background-color: var(--color-white);
+    border: 2px solid #000;
+    
+}
+
+.stylefeed__btn h5:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}

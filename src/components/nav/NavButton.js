@@ -1,6 +1,10 @@
-import Modal from "./Modal";
-import Backdrop from "./Backdrop";
+import Modal from "../modal/Modal";
+import Backdrop from "../backdrop/Backdrop";
 import { useState } from "react";
+import './navbutton.css'
+
+
+
 const NavButton = ({text}) => {
 
 const [modalIsOpen, setModalIsOpen] = useState(false)

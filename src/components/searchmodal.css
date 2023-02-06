@@ -1,0 +1,11 @@
+#searchModal{
+    position: absolute;
+    background-color: gray;
+    width: 600px;
+    height: 250px;
+    margin-top: -20px;
+    margin-left: 0;
+    background-color: #aa3be9;
+    padding-top: 20px;
+    overflow-y: scroll;
+  }

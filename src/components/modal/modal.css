@@ -1,0 +1,11 @@
+#modal{
+    position: absolute;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 50px;
+  
+    width: 1282px;
+    height: 450px;
+    background-color: gray;
+    z-index: 2;
+  }

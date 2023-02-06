@@ -1,0 +1,28 @@
+.trending__container{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.trending__categories-title{
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 4rem 2rem 2rem;
+}
+
+.trending__categories{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.trending__categories-item{
+    line-height: 2.5; 
+}
+
+.trending__container p{
+    width: 55%;
+    margin: 0 auto;
+    margin-top:2rem;
+    font-size: .8rem;
+}

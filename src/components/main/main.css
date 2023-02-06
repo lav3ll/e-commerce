@@ -1,0 +1,75 @@
+.main__container{
+    background:linear-gradient(50deg,pink,green);
+    height: 80vh;
+}
+
+.main__body{
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    margin: 1.5rem auto;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-around;
+    padding: 0 1.5rem;
+}
+
+.main__container:hover{
+    cursor: pointer;
+}
+
+.main__image{ 
+    margin-top: 2rem;   
+}
+
+
+.main__product-title{
+    background-color: var(--color-white);
+    line-height: 2.5rem;
+
+}
+
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    background-color: black;
+    color: #fff;
+    padding: 0 20px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  #bannerTxt{
+    width: 40%;
+    
+    text-align: center;
+  }
+  
+  #women, #men{
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 70px;
+    margin-top: 9px;
+    border: 2px solid #fff;
+  }
+  
+  #women, #men:hover{
+    cursor: pointer;
+  }
+  
+  #sub-banner{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height:6rem;
+    /* margin: 0 84px; */
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+  }
